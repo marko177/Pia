@@ -16,11 +16,12 @@ for i in range(5):
     num = int(input("Ingrese un numero entero para la lista 2:\n"))
     lista2.append(num)
 
-for i in lista1:
-    lista3.append(i)
 
-for i in lista2:
-    lista3.append(i)
+for x in range(5):
+
+    suma = lista1[x] + lista2[x]
+    
+    lista3.append(suma)
 
 print(f"La lista 1 es:\n{lista1}")
 print(f"La lista 2 es:\n{lista2}")
